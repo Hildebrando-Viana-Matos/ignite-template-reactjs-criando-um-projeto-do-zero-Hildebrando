@@ -44,7 +44,7 @@
   }
 
   .info {
-    margin-bottom: 4rem;
+    margin-bottom: 1rem;
 
     span {
       margin-right: 0.5rem;
@@ -56,7 +56,39 @@
       & + span {
         margin-left: 1.625rem;
       }
-
     }
+  }
+
+  p {
+    margin-top: 1rem;
+    display: block;
+    font-style: italic;
+    font-size: 0.875rem;
+  }
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid var(--border);
+
+  h3 {
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: var(--white-900);
+  }
+
+  a {
+    color: var(--pink-500);
+    font-weight: 600;
+  }
+
+  div {
+    padding-top: 3rem;
+  }
+
+  div + div {
+    text-align: right;
   }
 }
